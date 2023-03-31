@@ -1,0 +1,72 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-03-30T23:58:31.762Z",
+  "__export_source": "insomnia.desktop.app:v2022.7.5",
+  "resources": [
+    {
+      "_id": "req_b2e9389ac0504d8a9c6cb539f94a6bed",
+      "parentId": "wrk_de62e90a70044d5e9746f0b1de6d16c3",
+      "modified": 1675644438227,
+      "created": 1675644438227,
+      "url": "http://localhost:3000/api/v1/user",
+      "name": "New Request",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"email\": \"sergiodavid21@gmail.com\",\n\t\"password\": \"sdsd24fhssd\",\n\t\"phone\": 3015660438\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1675644438227,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_de62e90a70044d5e9746f0b1de6d16c3",
+      "parentId": null,
+      "modified": 1675644360966,
+      "created": 1675644360966,
+      "name": "Ecommerce API",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_229b656c111ae1394761d7e25694931ea3091995",
+      "parentId": "wrk_de62e90a70044d5e9746f0b1de6d16c3",
+      "modified": 1675644360970,
+      "created": 1675644360970,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1675644360970,
+      "_type": "environment"
+    },
+    {
+      "_id": "spc_07bc99a4b2f84b20b39aa93a17e63468",
+      "parentId": "wrk_de62e90a70044d5e9746f0b1de6d16c3",
+      "modified": 1675644360967,
+      "created": 1675644360967,
+      "fileName": "Ecommerce API",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
